@@ -1,0 +1,15 @@
+img {
+    max-width: 100%; /* Faz a imagem se ajustar ao tamanho do container */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove espaços extras abaixo da imagem */
+    margin: 10px 0; /* Adiciona margem */
+}
+
+header img {
+    width: 150px; /* Define um tamanho específico para o logo */
+}
+
+.curso img {
+    border: 2px solid #333; /* Adiciona uma borda às imagens dos cursos */
+    border-radius: 10px; /* Arredonda as bordas */
+}
